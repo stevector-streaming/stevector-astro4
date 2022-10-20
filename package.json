@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "PORT=8080 node ./dist/server/entry.mjs",
-    "build": "astro build",
+    "start": "node ./dist/server/entry.mjs",
+    "build": "astro build --host 0.0.0.0",
     "preview": "astro preview",
     "astro": "astro"
   },
