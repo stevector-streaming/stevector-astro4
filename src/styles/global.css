@@ -92,3 +92,146 @@ h1 {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main,
+#block-sitebranding div,
+#block-starky-page-title {
+  max-width: 800px;
+  margin:0 auto;
+  padding: 0 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.twitter-social-link a {
+color: white;
+text-decoration: none;
+background-image: url("/themes/starky/svg/Twitter.svg");
+background-repeat: no-repeat;
+padding-left: 20px;
+background-position-x: left;
+background-size: auto;
+}
+footer {
+    background: #0F52BA;
+ }
+
+#block-sitebranding {
+    /*background: #0F52BA; */
+    background: #0F52BA;
+    margin-bottom: 1.45rem;
+}
+
+#block-sitebranding a,
+h1, h2 {
+    padding: 0;
+    margin: 0 0 1.45rem;
+     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+}
+
+#block-sitebranding a {
+    font-size: 40px;
+    color: #FFF;
+}
+#block-sitebranding {
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 2.25rem;
+}
+
+body {
+    font-family: georgia,serif;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: underline;
+    color: #0F52BA;
+    text-decoration-style: solid;
+}
+
+.field--name-field-date-published div {
+    display: inline;
+    color: #333;
+}
+
+/* Look up how this gets placed on the page */
+#block-starky-breadcrumbs {
+    display: none;
+}
+
+/* change selector to blog teaser */
+.views-row article {
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    padding: 10px 10px 0;
+}
+
+.read-more-link {
+    text-align: right;
+}
+
+.field--name-field-text-pull-quotes blockquote {
+    background: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    border: 1px dashed #999;
+    margin:10px;
+}
+
+.field--name-field-text-pull-quotes blockquote:before {
+    margin-right: .1em;
+    content: "\201C";
+    flex: 0 2 auto;
+}
+
+.field--name-field-text-pull-quotes blockquote:after,
+.field--name-field-text-pull-quotes blockquote:before {
+    color: #ccF;
+    font-size: 6em;
+    line-height: .1em;
+    vertical-align: -.6em;
+    margin-top: .3em;
+}
+
+.field--name-field-text-pull-quotes blockquote:after {
+    margin-right: .1em;
+    content: "\201D";
+    flex: 0 1 auto;
+}
+
+
+.layout-container > footer {
+    padding:15px 30px;
+    
+}
+
+.layout-container > footer p {
+    
+    max-width: 800px;
+    margin:0 auto;
+}
